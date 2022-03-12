@@ -1,10 +1,11 @@
 
 const router = require("express").Router();
 
-const { findById, createNewNote, validateNote } = require("../../lib/notes");
+const { findById, createNewNote } = require("../../lib/notes");
 
 const { notes } = require("../../db/db.json");
 
+// get unique id UUID
 const { v4: uuidv4 } = require("uuid");
 
 // GET all notes and display
@@ -26,7 +27,6 @@ router.get('/notes/:id', (req, res) => {
   
 // to validate note's info and post it
 router.post('/notes', (req, res) => {
-  //console.log(req.body);
 
   const { title, text } = req.body;
 
@@ -35,16 +35,10 @@ router.post('/notes', (req, res) => {
       title,
       text,
       id: uuidv4(),
-    };
-
-  if (!validateNote(newNote)) {
-    res.status(400).send('The note is not properly formatted.');
-  }
-  else {
+    }
+    
     const note = createNewNote(newNote, notes);
     res.json(note);
-  }
-
   }
   else{
     res.json("Error in posting note");

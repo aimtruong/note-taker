@@ -1,23 +1,24 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
+      "title": "Grocery List",
+      "text": "- apples\n- lettuce\n- ground beef\n- taco seasoning",
+      "id": "9973aa0c-642d-4263-be71-4378d13c5ce8"
     },
     {
-      "title": "Note",
-      "text": "text",
-      "id": "de20d28c-c911-4337-a9a4-f84209746d1d"
+      "title": "Doctor's app",
+      "text": "January 21, 2023",
+      "id": "023d1c5e-c64a-4696-ad7a-85b514c56d31"
     },
     {
-      "title": "Note",
-      "text": "fwwefewfewa",
-      "id": "f391489e-4bbf-40ea-907d-b010bb7f77f0"
+      "title": "Order new phone for grandma",
+      "text": "iphone sells for $500\nnew sim since old sim cracked",
+      "id": "62041936-b635-4587-8449-52ae58a8d782"
     },
     {
-      "title": "Note",
-      "text": "howdy",
-      "id": "5a4dac9b-6fed-490a-a199-44eea2026de2"
+      "title": "Nala's yearly shots",
+      "text": "\ndue August 2022",
+      "id": "43c7c0cf-e54b-4397-a341-4970d702cac9"
     }
   ]
 }

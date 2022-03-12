@@ -17,7 +17,7 @@
 
 
 ## Usage
-- Create a note and click the save button to save it or trash button to delete it
+- Create a note and click the save button to save it, click previous notes to see it completely
 
 
 ## Preview
@@ -29,7 +29,7 @@
 
 
 ## Contributing
-- Third-party assets: Express, Node, FileSystem
+- Third-party assets: Express, Node, FileSystem, UUID
 
 
 ## Questions
