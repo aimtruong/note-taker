@@ -30,6 +30,7 @@ router.post('/notes', (req, res) => {
 
   const { title, text } = req.body;
 
+  // check if title and text are filled before posting
   if(title && text){
     const newNote = {
       title,
