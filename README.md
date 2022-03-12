@@ -22,10 +22,8 @@
 
 ## Preview
 - Link: [Note-Taker](https://warm-sands-32649.herokuapp.com/)
----
-> include screenshots here,
-> create an 'assets/images' folder and drag image in this section
----
+
+![first-preview](https://user-images.githubusercontent.com/95596045/158002711-f0ea97dc-66d0-4e30-8214-5dd2892d5a4d.JPG)
 
 
 ## Contributing
