@@ -21,7 +21,7 @@
 
 
 ## Preview
-- Link: [Note-Taker](https://aimtruong.github.io/note-taker/)
+- Link: [Note-Taker]()
 ---
 > include screenshots here,
 > create an 'assets/images' folder and drag image in this section
