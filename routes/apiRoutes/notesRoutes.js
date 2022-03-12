@@ -36,26 +36,19 @@ router.post('/notes', (req, res) => {
       text,
       id: uuidv4(),
     };
-    
-    const response = {
-      status: "success",
-      body: newNote
-    };
 
-    if (!validateNote(newNote)) {
-      res.status(400).send('The note is not properly formatted.');
-    }
-    else {
-      const note = createNewNote(newNote, notes);
-      res.json(response);
-      req.json(note);
-    }
+  if (!validateNote(newNote)) {
+    res.status(400).send('The note is not properly formatted.');
+  }
+  else {
+    const note = createNewNote(newNote, notes);
+    res.json(note);
+  }
 
   }
   else{
     res.json("Error in posting note");
   }
-  //  req.body = notes.toString();
 });
   
 module.exports = router;

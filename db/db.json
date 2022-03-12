@@ -9,23 +9,15 @@
       "text": "text",
       "id": "de20d28c-c911-4337-a9a4-f84209746d1d"
     },
-    [
-      {
-        "body": {
-          "title": "Note",
-          "text": "new note",
-          "id": "8a596a7c-e609-4686-8e2f-21ba45c5544b"
-        }
-      }
-    ],
-    [
-      {
-        "body": {
-          "title": "Note",
-          "text": "fw",
-          "id": "5bd627cc-e6eb-4f08-947e-95735f218ae1"
-        }
-      }
-    ]
+    {
+      "title": "Note",
+      "text": "fwwefewfewa",
+      "id": "f391489e-4bbf-40ea-907d-b010bb7f77f0"
+    },
+    {
+      "title": "Note",
+      "text": "howdy",
+      "id": "5a4dac9b-6fed-490a-a199-44eea2026de2"
+    }
   ]
 }
