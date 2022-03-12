@@ -21,7 +21,7 @@
 
 
 ## Preview
-- Link: [Note-Taker]()
+- Link: [Note-Taker](https://warm-sands-32649.herokuapp.com/)
 ---
 > include screenshots here,
 > create an 'assets/images' folder and drag image in this section
